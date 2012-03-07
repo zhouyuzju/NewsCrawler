@@ -11,6 +11,6 @@ def newsDAO(stmt):
 if __name__ == "__main__":
     title = 'hello'
     content = 'hello world'
-    date = '2011-12-07'
+    date = '2011-12-07'  #date
     stmt = 'insert into NEWS (NEWS_TITLE,NEWS_CONTENT,NEWS_PUBLISHDATE) values(\'%s\',\'%s\',\'%s\')' % (title,content,date)
     newsDAO(stmt)
